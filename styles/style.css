@@ -8,16 +8,12 @@
 
 .header__menu {
     justify-self: start;
-
 }
 
 .header__links-list{
     display: flex;
     gap: 36px;
     list-style: circle;
-}
-
-.header__links-list-item {
 }
 
 .header__links-list-item_no-bullit {
@@ -91,10 +87,6 @@
     padding-top: 165px;
     line-height: 115px;
     letter-spacing: 30px;
-}
-
-.letter-spacing-extended {
-
 }
 
 .aligned-text {
