@@ -50,7 +50,9 @@
 }
 
 .header__address {
+    line-height: 26px;
     justify-self: end;
+    padding-right: 36px;
 }
 
 .cover {
@@ -143,7 +145,6 @@
 .lots {
     width: 1052px;
     padding: 0 24px;
-    margin-bottom: 180px;
 }
 
 .lots__heading {
@@ -160,7 +161,6 @@
     grid-template-columns: repeat(3,1fr);
     list-style: none;
     gap: 25px;
-    margin-bottom: 30px;
 
 }
 
@@ -175,6 +175,8 @@
     font-size: 20px;
     text-transform: lowercase;
     text-decoration: underline;
+    width: fit-content;
+    font-weight: 400;
 }
 
 .card-link,
@@ -191,17 +193,20 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 596px;
+    min-height: 596px;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 
-.overlay {
-    position: absolute;
-    inset: 0;
-    z-index: 1;
-    background-color: rgba(0, 0, 0, 0.6);
+.lots__look-more-link {
+    text-transform: lowercase;
+    display: block;
+    width: fit-content;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 30px;
+    margin-left: 40px;
 }
 
 .card__title {
@@ -239,18 +244,8 @@
     background-image: url("../images/card-lot-03.jpg");
 }
 
-.lots__look-more-link {
-    text-transform: lowercase;
-    display: block;
-    width: fit-content;
-    font-size: 20px;
-    font-weight: 400;
-    margin-top: 30px;
-    margin-left: 40px;
-}
-
 .about {
-    margin: 180px auto;
+    margin: 150px 24px 180px;
     display: grid;
     grid-template-columns: 1fr auto ;
     gap: 50px;
@@ -264,7 +259,7 @@
 }
 
 .about__column:last-child {
-    padding-top: 77px;
+    padding-top: 106px;
     padding-left: 24px;
 }
 
@@ -277,7 +272,6 @@
     justify-content: center;
     border-radius: 50%;
     margin-left: 22px;
-    margin-top: -26px;
 }
 
 .about__logo-image {
@@ -296,6 +290,7 @@
     display: flex;
     flex-direction: column;
     gap: 24px;
+    width: 690px;
 }
 
 .about__text {
@@ -320,6 +315,7 @@
     font-size: 18px;
     font-weight: 400;
     line-height: 24px;
+    padding-bottom: 82px;
 
 }
 
